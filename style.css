@@ -26,31 +26,30 @@ body {
 }
 /* /navbar */
 
-/* hero section */
+/* hero-section */
 #hero {
   background-color: #f1f3ff;
-
 }
 
 .hero-tagline .h1{
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 54px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
 }
 
 .hero-tagline p{
-    font-size: 14px;
-    line-height: 20px;
-    width: 80%;
+  font-size: 14px;
+  line-height: 20px;
+  width: 80%;
 }
 .btn-sewa {
-    background: var(--primary-color);
-    color: #fff;
-    border: none;
-    padding: 8px 12px;
-    border-radius: 2px;
-    font-size: 14px;
-    margin: 10px 0;
+  background: var(--primary-color);
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 2px;
+  font-size: 14px;
+  margin: 10px 0;
 }
 
 .hero-img{
@@ -58,6 +57,44 @@ body {
   height: 100%;
 }
 
+/* /hero-section */
+
+/* service-section */
+
+/* .service{
+  margin: 60px 100px;
+} */
+/* .bg-img{
+  /* padding-right: 50px;
+  box-sizing: border-box; */
+.h2{
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.teks-service{
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 300;
+}
+
+.list-service{
+  list-style: none;
+  padding-left: 0;
+  margin-top: 16px;
+}
+.list-service li{
+ font-size: 14px; 
+ line-height: 20px;
+ margin-bottom: 16px;
+}
+
+.list-service li img{
+  margin-right: 16px;
+}
+/* /service-section */
 
 @media (max-width: 575.98px){
   .hero-tagline p{
