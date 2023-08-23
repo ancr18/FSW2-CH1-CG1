@@ -96,8 +96,31 @@ body {
 }
 /* /service-section */
 
+/* why-us-section */
+
+.sub-title{
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.card-subtitle{
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+}
+.card-text{
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* /why-us-section */
+
 @media (max-width: 575.98px){
   .hero-tagline p{
     width: 100%;
+  }
+
+  .card-text{
+    width: 90%;
   }
 }
