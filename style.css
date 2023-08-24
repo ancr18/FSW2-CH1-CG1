@@ -115,6 +115,16 @@ body {
 
 /* /why-us-section */
 
+/* testmonial-section */
+
+.text-testi{
+  width: 80%;
+}
+.h3{
+  font-size: 14px;
+}
+/* /testimonial-section */
+
 @media (max-width: 575.98px){
   .hero-tagline p{
     width: 100%;
