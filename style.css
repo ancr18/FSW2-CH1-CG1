@@ -10,9 +10,6 @@ body {
   font-family: 'Helvetica', sans-serif;
 }
 
-/* .my-5{
-  margin: 100px 0 !important;
-} */
 
 /* navbar */
 .navbar {
@@ -20,8 +17,12 @@ body {
 }
 .navbar-nav li {
   font-size: 14px;
+  font-weight: 400;
 }
-
+.offcanvas-title{
+  font: 14px;
+  font-weight: 700;
+}
 .btn-register {
   background: var(--primary-color);
   color: #fff;

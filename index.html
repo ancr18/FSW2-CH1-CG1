@@ -23,30 +23,35 @@
                 <a class="navbar-brand" href="#">
                     <img src="assets/images/logo.svg" alt="Logo" width="100px" height="34px">
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvas#offcanvasRight" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item mx-2">
-                            <a class="nav-link active" aria-current="page" href="#service-section">Our Services</a>
-                        </li>
-                        <li class="nav-item mx-2">
-                            <a class="nav-link active" href="#why-us-section">Why Us</a>
-                        </li>
-                        <li class="nav-item mx-2">
-                            <a class="nav-link active" href="#testimonial-section">Testimonial</a>
-                        </li>
-                        <li class="nav-item mx-2">
-                            <a class="nav-link active" href="#">FAQ</a>
-                        </li>
-                        <li class="nav-item">
-                            <button class="btn-register fw-bold">Register</button>
-                        </li>
-                        
-                        
-                    </ul>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel" style="width: 50%;">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasRightLabel">BCR</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item mx-2">
+                                <a class="nav-link active" aria-current="page" href="#service-section">Our Services</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link active" href="#why-us-section">Why Us</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link active" href="#testimonial-section">Testimonial</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link active" href="#faq-section">FAQ</a>
+                            </li>
+                            <li class="nav-item">
+                                <button class="btn-register fw-bold">Register</button>
+                            </li>
+                        </ul>
+                    </div>
+                    
                 </div>
             </div>
         </nav>
