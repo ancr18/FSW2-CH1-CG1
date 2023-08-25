@@ -107,6 +107,7 @@ body {
 .sub-title{
   font-size: 14px;
   line-height: 20px;
+  font-weight: 300;
 }
 
 .card-subtitle{
@@ -125,6 +126,7 @@ body {
 
 .testimonial{
   background: #F1F3FF;
+  border-radius: 8px;
 }
 .h3{
   font-size: 14px;
@@ -139,9 +141,14 @@ body {
 }
 
 .banner .sub-title{
-  width: 50%;
+  width: 40%;
 }
 /* /banner-section */
+
+/* faq-section */
+
+/* faq-sectioin */
+
 
 /* footer */
 
@@ -153,12 +160,77 @@ body {
 
 /* /footer */
 
+
+
 @media (max-width: 575.98px){
-  .hero-tagline p{
+
+  /* hero-section */
+  .hero-tagline .h1{
+    width: 80%;
+  }
+  .hero-tagline p {
+    width: 100% !important;
+  }
+  /* /hero-section */
+
+  /* service-section */
+  .serv-img{
+    padding: 48px !important;
+  }
+  .teks-service{
+    width: 95% !important;
+  }
+    
+  /* /service sectiion */
+  
+  /* why-us-section */
+  .why-us-section .head{
+    text-align: center;
+  }
+  .card-text {
     width: 100%;
   }
+  /* /why-us-section */
 
-  .card-text{
-    width: 90%;
+  /* testimonial-section */
+  .testi-img{
+    margin: 0 auto !important;
+    width: 80px;
   }
+
+  .arrow-button{
+    display: flex;
+    align-items: start;
+    margin: 20px;
+  }
+
+  .img-star{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .comment{
+    padding: 0 16px;
+  }
+
+  .name-testi{
+    padding-left: 16px;
+  }
+  /* /testimonial-section */
+
+  /* banner-section */
+  .banner .sub-title {
+    width: 70%;
+  }
+  /* /banner-section */
+
+  /* faq-section */
+  .faq-head{
+    text-align: center;
+  }
+  /* /faq-section */
+
+
+  
 }
