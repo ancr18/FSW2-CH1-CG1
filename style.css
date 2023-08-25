@@ -4,6 +4,7 @@
 }
 :root {
   --primary-color: #5cb85f;
+  --margin-section: 50px;
 }
 body {
   font-family: 'Helvetica', sans-serif;
@@ -140,6 +141,16 @@ body {
   width: 50%;
 }
 /* /banner-section */
+
+/* footer */
+
+.foot-link{
+  text-decoration: none;
+  color: inherit;
+  font-weight: 600;
+}
+
+/* /footer */
 
 @media (max-width: 575.98px){
   .hero-tagline p{
